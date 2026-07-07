@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Sangam</title>
+    <title>Sangam Feed</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1>Sangam Feed</h1>
-        <p>Where moments connect</p>
+        <p>Welcome!</p>
         
+        <div class="post-box">
+            <textarea placeholder="What's on your mind?"></textarea>
+            <button>Post</button>
+        </div>
+
         <div class="post">
-            <p><b>Welcome to Sangam!</b></p>
-            <p>Ye tumhara pehla post hai 🎉</p>
+            <b>Demo User</b>
+            <p>Ye mera pehla Sangam post hai! 🔥</p>
         </div>
 
         <button onclick="window.location.href='index.html'">Logout</button>
